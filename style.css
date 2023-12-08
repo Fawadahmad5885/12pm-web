@@ -1,0 +1,196 @@
+*{
+    font-family: 'Poppins',sans-serif,'Dancing Script','Alex Brush',cursive;
+}
+body{
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.span1{
+    font-size: 50px;
+    font-style: bold;
+    font-family: 'Dancing Script';
+    
+}
+.box{
+    width: 265px;
+    height: 380px;
+    display: flex;
+    margin: auto;
+    margin-top: -12px;
+    border: 1px solid #126673;
+    border-radius: 5px;
+}
+.box:hover{
+    box-shadow: 0 0 3px rgb(97, 110, 124);
+}
+.box-contents{
+    width: 235px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+.box-header{
+    font-weight: 150;
+    font-size: 20px;
+    line-height: 12px;
+}
+.Inputs{
+    font-size: 9px;
+    display: flex;
+    flex-direction: column;
+}
+.-email{
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 19px;
+}
+.-password{
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 19px;
+}
+input{
+    font-size: 10px;
+    padding: 4px;
+}
+.input::-webkit-input-placeholder{
+    font-size: 10px;
+}
+.input:focus::placeholder {
+    color: transparent;
+}
+.forget{
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    line-height: 12px;
+}
+.btn{
+    padding: 4px;
+    margin-top: 13px;
+    color: whitesmoke;
+    background-color: #268e9e;
+    border: transparent;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+.btn:hover{
+    background-color: #126673;
+}
+.check-box{
+    align-items: center;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.more-signIn-Text{
+    font-size: 10px;
+    color: #535657;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 10px;
+    height: 10px;
+}
+.other-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Amazon-signIn-link{
+    height: 28px;
+    width: 120px;
+    justify-content: center;
+    background-color: #e9f0f2;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0.03px solid #686565;
+    text-decoration: none;
+    color: #000;
+    transition: 0.4s;
+}
+.Amazon-signIn-link:hover {
+    color: #e9f0f2;
+    background-color: #126673;
+    box-shadow: 0 0 3px slategray;
+}
+
+.Amazon-signIn-Text {
+    font-size: 10px;
+    margin-left: 5px;
+}
+.account-btn{
+    height: 28px;
+    width: 120px;
+    font-size: 10px;
+    color: #268e9e;
+    background-color: transparent;
+    border: 1px solid #126673;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-top: -180px;
+    margin-bottom: 280px;
+    transition: 0.4s;
+}
+.account-btn:hover{
+    background-color: #126673;
+    box-shadow: 0 0 3px slategray;
+}
+.a_account{
+    text-decoration: none;
+    color: #126673;
+}
+.a_account:hover{
+    color: #fff;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    height:30vh;
+    background: #e9f0f2;
+    box-shadow: 0 0 4px #3f5f64;
+    box-sizing: border-box;
+}
+.footer .sources{
+    padding: 12px 20px;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.sources_child{
+    font-size: 10px;
+    text-decoration: none;
+}
+.footer-text{
+    color: #535657;
+    width: 600px;
+    display: flex;
+    margin: auto;
+    margin-top: -120px;
+}
